@@ -34,7 +34,13 @@
 .accented-icon{
   color: #4D0F24;
 }
-
+.img-fluid{
+  -webkit-perspective: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0,0,0);
+  visibility:visible;
+  backface-visibility: hidden;
+}
 @media (min-width: 1025px) and (max-width: 1200px) {
    .home {
       background-size:100vh 100vh !important;
