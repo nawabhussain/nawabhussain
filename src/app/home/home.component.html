@@ -1,0 +1,44 @@
+<div class="w-100 m-0 home" id="home" #home>
+
+    <div class="row w-100">
+      <div class="side-nav">
+        <div class="pt-3">
+          <a href="https://www.linkedin.com/in/nawab-hussain/" target="_blank" rel="noopener noreferrer">
+            <span class="fa-stack">
+              <i class="fas fa-circle fa-stack-2x white-icon"></i>
+              <i class="fab fa-linkedin-in fa-stack-1x fa-inverse accented-icon"></i>
+            </span>
+          </a>
+        </div>
+  
+        <div class="pt-3">
+          <a href="https://github.com/nawabhussain/" target="_blank" rel="noopener noreferrer">
+            <span class="fa-stack">
+              <i class="fas fa-circle fa-stack-2x white-icon"></i>
+              <i class="fab fa-github fa-stack-1x accented-icon"></i>
+            </span>
+          </a>
+        </div>
+  
+        <div class="pt-3">
+          <a href="https://medium.com/@dergeekbrigade" target="_blank" rel="noopener noreferrer">
+          <span class="fa-stack">
+            <i class="fas fa-circle fa-stack-2x white-icon"></i>
+            <i class="fab fa-medium fa-stack-1x fa-inverse accented-icon"></i>
+          </span>
+          </a>
+        </div>
+  
+        <div class="pt-3 pb-3" (click)="scroll('about')">
+          <span class="fa-stack">
+            <i class="fas fa-circle fa-stack-2x white-icon"></i>
+            <i class="fa fa-user fa-stack-1x fa-inverse accented-icon"></i>
+          </span>
+        </div>
+      </div>
+      <div class="align-self-center text-center" >
+        <img class="img-fluid" src="assets/img/logo.png" alt="Profile" (click)="animate()"
+        [@flip]="animationState">
+      </div>
+    </div>
+  </div>  

@@ -1,0 +1,60 @@
+@import "mixins";
+@import "variables";
+@import "responsive";
+.home {
+  height: 100vh;
+  @include flex-container(row);
+  color: white;
+  background: url('/assets/img/top-group.png') no-repeat fixed #4D0F24;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+  background-position: top left;
+  background-attachment:scroll;
+  background-size:100vh 100vh;
+
+}
+
+.row-max {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.side-nav{
+  position: absolute;
+  bottom: 0;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+.white-icon{
+  color: white;
+}
+.accented-icon{
+  color: #4D0F24;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+   .home {
+      background-size:100vh 100vh !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .home {
+      background-size:85vh 85vh !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+   .home {
+      background-size:70vh 70vh !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .home {
+    background-size:50vh 50vh !important;
+  }
+}
