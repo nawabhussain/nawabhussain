@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-portfolio": {
+    "nawabhussain": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "aot": true,
-            "outputPath": "dist/angular-portfolio",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,18 +72,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-portfolio:build"
+            "browserTarget": "nawabhussain:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-portfolio:build:production"
+              "browserTarget": "nawabhussain:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-portfolio:build"
+            "browserTarget": "nawabhussain:build"
           }
         },
         "test": {
@@ -121,7 +121,7 @@
         }
       }
     },
-    "angular-portfolio-e2e": {
+    "nawabhussain-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -130,11 +130,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-portfolio:serve"
+            "devServerTarget": "nawabhussain:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-portfolio:serve:production"
+              "devServerTarget": "nawabhussain:serve:production"
             }
           }
         },
@@ -150,5 +150,5 @@
       }
     }
   },
-  "defaultProject": "angular-portfolio"
+  "defaultProject": "nawabhussain"
 }
