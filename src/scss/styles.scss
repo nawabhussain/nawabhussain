@@ -9,6 +9,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "reset";
 @import "animations";
 @import "variables";
+@import "responsive";
 
 body {
   overflow-x: hidden;
@@ -27,4 +28,27 @@ body {
   height: 0.2rem;
   background-color: $blue;
   margin: 20px auto 20px;
+}
+.header{
+  color: #FF0D4C;
+  font-size: 64px;
+  font-family: $font-open-serif;
+  font-weight: 700;
+}
+.subheader{
+  color: white;
+  font-size: 24px;
+  font-family: $font-open-serif;
+  font-weight: normal;
+}
+.job_role{
+  font-family: $font-open-serif;
+  font-size: 15px;
+}
+
+.skill_name{
+  color: white;
+  font-size: 22px;
+  font-family: $font-open-serif;
+  font-weight: normal;
 }

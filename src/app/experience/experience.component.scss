@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'mixins';
+@import 'responsive';
+
+.experience{
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+}
+.companies{
+  margin-top: 80px;
+}
+
+.minnosphere_container{
+  height: 46px;
+}
+.msg_container{
+  height: 25px;
+}
+.siemens_container{
+  height: 25.27px;
+}
+.step2e_container{
+  height: 46px;
+}
+.kelltontech_container{
+  height: 44.27px;
+}
+.company_experience_container{
+  height: 37px;
+}
+.company_logo{
+  max-height: 100%;
+  max-width: 100%;
+}

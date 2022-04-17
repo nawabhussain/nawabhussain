@@ -1,80 +1,96 @@
-/* Smartphones (portrait) ----------- */
-//@media only screen
-//and (max-width : 580px) {
-//  /* Styles */
-//  .img-fluid {
-//    max-width: 70%;
-//    height: auto
-//  }
-//}
-//
-///* iPads (portrait and landscape) ----------- */
-//@media only screen
-//and (min-device-width : 768px)
-//and (max-device-width : 1024px) {
-//  /* Styles */
-//  .img-fluid {
-//    max-width: 75%;
-//    height: auto
-//  }
-//}
 
-/* Desktops and laptops ----------- */
-@media only screen
-and (max-device-width : 1106px){
-  /* Styles */
-  .img-fluid {
-    max-width: 75%;
-    height: auto
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .header{
+    color: #FF0D4C;
+    font-size: 64px;
+    font-weight: 700;
   }
-
-  .center-text{
-    text-align: center!important;
+  .subheader{
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .skill_name{
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+  }
+  .job_role{
+    font-family: $font-open-serif;
+    font-size: 14px;
   }
 }
 
-@media only screen
-and (min-device-width : 1106px)
-and (max-device-width : 1200px){
-  /* Styles */
-  .img-fluid {
-    max-width: 65%;
-    height: auto
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header{
+    color: #FF0D4C;
+    font-size: 44px;
+    // font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
   }
-
-}
-@media only screen
-and (min-device-width : 1200px)
-and (max-device-width : 1224px){
-  /* Styles */
-  .img-fluid {
-    max-width: 50%;
-    height: auto
+  .subheader{
+    color: white;
+    font-size: 20px;
+    // font-family: 'Open Sans',  sans-serif;
+    font-weight: normal;
   }
-}
-
-@media only screen
-and (min-device-width : 1224px) {
-  /* Styles */
-  .img-fluid {
-    max-width: 45%;
-    height: auto
+  .skill_name{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .job_role{
+    font-family: $font-open-serif;
+    font-size: 14px;
   }
 }
 
-/* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
-  /* Styles */
-  .img-fluid {
-    max-width: 50%;
-    height: auto
+@media (min-width: 481px) and (max-width: 768px) {
+  .header{
+    color: #FF0D4C;
+    font-size: 36px;
+    // font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+  .subheader{
+    color: white;
+    font-size: 18px;
+    // font-family: 'Open Sans',  sans-serif;
+    font-weight: normal;
+  }
+  .skill_name{
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans',  sans-serif;
+    font-weight: normal;
+  }
+  .job_role{
+    font-family: $font-open-serif;
+    font-size: 12px;
   }
 }
 
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-  /* Styles */
+@media only screen and (max-width: 480px) {
+  .header{
+    color: #FF0D4C;
+    font-size: 32px;
+    // font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+  .subheader{
+    color: white;
+    font-size: 16px;
+    // font-family: 'Open Sans',  sans-serif;
+    font-weight: normal;
+  }
+  .skill_name{
+    color: white;
+    font-size: 14px;
+    // font-family: 'Open Sans',  sans-serif;
+    font-weight: normal;
+  }
+  .job_role{
+    font-family: $font-open-serif;
+    font-size: 12px;
+  }
 }

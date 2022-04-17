@@ -15,12 +15,14 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { ExperienceComponent } from './experience/experience.component';
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     HomeComponent,
     FooterComponent,
+    ExperienceComponent,
   ],
   imports: [
     BrowserModule,

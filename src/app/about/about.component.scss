@@ -1,6 +1,10 @@
+@import 'variables';
+@import 'mixins';
+@import 'responsive';
+
 .about{
   color: white;
-  margin-top: 150px;
+  height: 100vh;
   background: url('/assets/img/bottom-group.png') no-repeat fixed #4D0F24;
   -webkit-background-size: auto;
   -moz-background-size: auto;
@@ -8,152 +12,19 @@
   background-size: auto;
   background-position: bottom right;
   background-attachment:scroll;
-  // background-size:100vh;
-  padding-bottom: 350px;
 }
-.header{
-  color: #FF0D4C;
-  font-size: 64px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-}
-.subheader{
-  color: white;
-  font-size: 24px;
-  font-family: 'Open Sans',  sans-serif;
-  font-weight: normal;
-}
-.skill_name{
-  color: white;
-  font-size: 22px;
-  font-family: 'Open Sans',  sans-serif;
-  font-weight: normal;
-}
+
 .skills{
-  margin-top: 420px;
+  height: 80vh;
 }
-.profession_experience{
-  margin-top: 420px;
-}
+
 .tools{
   position:absolute;
   top: 0;
   right:0;
-  text-align: right; 
+  text-align: right;
 }
 .skills_tools {
   text-align: right;
 }
-.companies{
-  margin-top: 80px;
-}
-.job_role{
-  margin-bottom: 40px;
-  font-family: 'Open Sans',  sans-serif;
-}
-.minnosphere_container{
-  height: 46px;
-}
-.msg_container{
-  height: 25px;
-}
-.siemens_container{
-  height: 25.27px;
-}
-.step2e_container{
-  height: 46px;
-}
-.kelltontech_container{
-  height: 44.27px;
-}
-.company_experience_container{
-  height: 37px;
-}
-.company_logo{
-  max-height: 100%;
-  max-width: 100%;
-}
 
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .header{
-    color: #FF0D4C;
-    font-size: 64px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-  }
-  .subheader{
-    color: white;
-    font-size: 24px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-  .skill_name{
-    color: white;
-    font-size: 22px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .header{
-    color: #FF0D4C;
-    font-size: 44px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-  }
-  .subheader{
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-  .skill_name{
-    color: white;
-    font-size: 18px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-  .header{
-    color: #FF0D4C;
-    font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-  }
-  .subheader{
-    color: white;
-    font-size: 18px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-  .skill_name{
-    color: white;
-    font-size: 16px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .header{
-    color: #FF0D4C;
-    font-size: 32px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-  }
-  .subheader{
-    color: white;
-    font-size: 16px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-  .skill_name{
-    color: white;
-    font-size: 14px;
-    font-family: 'Open Sans',  sans-serif;
-    font-weight: normal;
-  }
-}
