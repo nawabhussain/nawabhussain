@@ -1,17 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {swingAnimation} from 'angular-animations';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  animations:[swingAnimation()]
+  animations: [swingAnimation()]
 })
 export class HomeComponent implements OnInit {
   animationState = false;
   animationWithState = false;
   visible = true;
   left = true;
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
     this.animate();
@@ -19,7 +22,6 @@ export class HomeComponent implements OnInit {
 
   scroll(id) {
     const el = document.getElementById(id);
-    console.log(el);
     el.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
   }
 
