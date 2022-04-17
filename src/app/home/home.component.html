@@ -1,7 +1,7 @@
 <div class="w-100 m-0 home" id="home" #home>
 
     <div class="row w-100">
-      <div class="side-nav">
+      <div class="side-nav p-2">
         <div class="pt-3">
           <a href="https://www.linkedin.com/in/nawab-hussain/" target="_blank" rel="noopener noreferrer">
             <span class="fa-stack">
@@ -10,7 +10,7 @@
             </span>
           </a>
         </div>
-  
+
         <div class="pt-3">
           <a href="https://github.com/nawabhussain/" target="_blank" rel="noopener noreferrer">
             <span class="fa-stack">
@@ -19,7 +19,7 @@
             </span>
           </a>
         </div>
-  
+
         <div class="pt-3">
           <a href="https://medium.com/@dergeekbrigade" target="_blank" rel="noopener noreferrer">
           <span class="fa-stack">
@@ -28,7 +28,7 @@
           </span>
           </a>
         </div>
-  
+
         <div class="pt-3 pb-3" (click)="scroll('about')">
           <span class="fa-stack">
             <i class="fas fa-circle fa-stack-2x white-icon"></i>
@@ -38,7 +38,7 @@
       </div>
       <div class="align-self-center text-center" >
         <img class="img-fluid" src="assets/img/logo.png" alt="Profile" (click)="animate()"
-        [@flip]="animationState">
+        [@swing]="animationState">
       </div>
     </div>
-  </div>  
+  </div>

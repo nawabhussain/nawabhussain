@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import {flipAnimation} from 'angular-animations';
+import {swingAnimation} from 'angular-animations';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  animations:[flipAnimation()]
+  animations:[swingAnimation()]
 })
 export class HomeComponent implements OnInit {
   animationState = false;
