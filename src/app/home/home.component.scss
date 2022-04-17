@@ -5,14 +5,6 @@
   height: 100vh;
   @include flex-container(row);
   color: white;
-  background: url('/assets/img/top-group.png') no-repeat fixed #4D0F24;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto;
-  background-position: top left;
-  background-attachment:scroll;
-  background-size:100vh 100vh;
 
 }
 

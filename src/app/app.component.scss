@@ -1,4 +1,9 @@
-.main-container{
-  // background: url('/assets/img/background-wallpaper.png') no-repeat fixed #4D0F24;
-  background-color: #4D0F24;
+.main-container {
+  background: url('/assets/img/background-wallpaper.png') no-repeat fixed #4D0F24;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom right;
+  background-attachment: scroll;
 }
